@@ -1,0 +1,53 @@
+{
+    "question": "Can you evaluate the semantic similarity between two sentences on a scale from 0.0 to 5.0? the two texts are in slovak language",
+    "responses": [
+        {
+            "original_line": "5.000\tVták sa kúpe v umývadle.\tVtáčik sa umýva v umývadle.",
+            "number": "5.000",
+            "text": "Vták sa kúpe v umývadle. Vtáčik sa umýva v umývadle.",
+            "response": "Based on my understanding, the two Slovak sentences \"Vták sa kúpe v umývadle.\" and \"Vtáčik sa umýva v umývadle.\" are very similar. The first one translates to \"The bird is bathing in the sink.\" and the second one translates to \"The little bird is washing itself in the sink.\" Both sentences talk about a bird bathing/washing itself in the sink. Therefore, I would rate the semantic similarity as 4.5 out of 5.0.",
+            "numerical_response": "4.5",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "4.000\tV máji 2010 sa jednotky pokúsili o inváziu na Kábul.\tAmerická armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "number": "4.000",
+            "text": "V máji 2010 sa jednotky pokúsili o inváziu na Kábul. Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "response": "The two sentences are:\n\n1. \"V máji 2010 sa jednotky pokúsili o inváziu na Kábul.\"\nTranslation: \"In May 2010, units tried to invade Kabul.\"\n\n2. \"Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010.\"\nTranslation: \"The American army invaded Kabul on May 7th of last year, 2010.\"\n\nBoth sentences discuss an invasion of Kabul in May 2010, but the first sentence is more general, referring to \"units,\" while the second sentence specifically references the American army. Therefore, they are quite semantically similar. \n\nOn a scale from 0.0 to 5.0, I would rate the semantic similarity as 4.5.",
+            "numerical_response": "1",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.000\tJohn povedal, že je považovaný za svedka, ale nie za podozrivého.\t\"Už nie je podozrivý.\" povedal John.",
+            "number": "3.000",
+            "text": "John povedal, že je považovaný za svedka, ale nie za podozrivého. \"Už nie je podozrivý.\" povedal John.",
+            "response": "As an AI, I can evaluate semantic similarity based on the context and meaning of the sentences. The two sentences in question are: \n\n1. \"John povedal, že je považovaný za svedka, ale nie za podozrivého.\" \n2. \"Už nie je podozrivý.\" povedal John. \n\nGiven that both sentences are discussing the same subject (John) and his status in a situation (not being a suspect), I would rate the semantic similarity as 4.0 out of 5.0. There is a clear similarity in the context (John's status), but they are not identical in meaning.",
+            "numerical_response": "1",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "2.000\tZ hniezda vyleteli v skupinách.\tSpoločne vleteli do hniezda.",
+            "number": "2.000",
+            "text": "Z hniezda vyleteli v skupinách. Spoločne vleteli do hniezda.",
+            "response": "The two sentences in Slovak translate to \"They flew out of the nest in groups. They flew into the nest together.\" \n\nOn a scale from 0.0 to 5.0, where 0.0 is no semantic similarity and 5.0 is complete semantic similarity, I would rate these two sentences around a 4.0. This is because both sentences discuss the action of birds flying in relation to a nest, but the direction of the action is opposite (one is flying out, the other is flying in).",
+            "numerical_response": "0.0",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "1.000\tŽena hrá na husliach.\tMladá slečna rada počúva gitaru.",
+            "number": "1.000",
+            "text": "Žena hrá na husliach. Mladá slečna rada počúva gitaru.",
+            "response": "The semantic similarity between these two sentences can be considered to be around 3.0 out of 5.0. Both sentences involve women and musical instruments, however, they are not identical in meaning. The first sentence talks about a woman playing the violin, while the second one talks about a young lady who likes listening to the guitar.",
+            "numerical_response": "3.0",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "0.000\tJohn išiel na koni za úsvitu spolu s celou skupinou priateľov.\tVýchod slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "number": "0.000",
+            "text": "John išiel na koni za úsvitu spolu s celou skupinou priateľov. Východ slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "response": "Sure, I apologize for the confusion. To evaluate semantic similarity, I need two distinct sentences to compare. In your text, it's more of a continuous narrative rather than two separate sentences which can be compared. If you provide two separate sentences, I would be able to give a semantic similarity score between 0.0 to 5.0.",
+            "numerical_response": "0.0",
+            "additional_question_needed": true
+        }
+    ]
+}

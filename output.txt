@@ -1,0 +1,36 @@
+5.000	Odpoveď: Na základe poskytnutých textov sa zdá, že obe vety opisujú podobnú situáciu - vtáka, ktorý sa kúpe v umývadle. Takže podobnosť môže byť približne 4 na škále od 0 do 5. Táto hodnota môže byť rozdielna v závislosti od konkrétnych kritérií hodnotenia.	Otázka: Aka je podobnost tychto textov na skale 0-5?
+4.000	Odpoveď: Na základe obsahu týchto textov, by som povedala, že sú veľmi podobné. Oba hovoria o invázii na Kábul v máji 2010. Na škále od 0 do 5 by som hodnotila ich podobnosť ako 5.	Otázka: Aka je podobnost tychto textov na skale 0-5?
+3.000	Odpoveď: Na základe obsahu a kontextu týchto dvoch viet, by som podobnosť hodnotil na 4 z 5. Obe vety hovoria o tom, že John je považovaný za svedka, nie za podozrivého.	Otázka: Aka je podobnost tychto textov na skale 0-5?
+2.000	Odpoveď: Podobnosť týchto textov je približne 4 na škále 0-5. Oba texty sa zaoberajú ptákmi, ktorí opúšťajú a vstupujú do hniezda, aj keď je to v opačnom poradí. Napriek tomu, že nie sú identické, sú tieto texty veľmi podobné vo svojom obsahu a téme.	Otázka: Aka je podobnost tychto textov na skale 0-5?
+1.000	Odpoveď: Na základe obsahu oboch viet by som povedal, že podobnosť je približne 4 na škále od 0 do 5. Obe vety sa týkajú hudby a hudobných nástrojov, ale odkazujú na rôzne nástroje (husle a gitara) a rôzne činnosti (hranie na nástroj versus počúvanie hudby).	Otázka: Aka je podobnost tychto textov na skale 0-5?
+0.000	Odpoveď: Podľa môjho hodnotenia, podobnosť medzi týmito dvoma textami je približne 3 na škále 0-5. Obidva texty opisujú úsvit a zážitok vychádzajúceho slnka, ale v rôznych kontextoch - prvý text opisuje skupinu priateľov jazdiacich na koniach za úsvitu, zatiaľ čo druhý text hovorí o kráse východu slnka za úsvitu.	Otázka: Aka je podobnost tychto textov na skale 0-5?
+5.000	Odpoveď: 5	Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+4.000	Odpoveď: 5	Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+3.000	Odpoveď: 4	Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+2.000	Odpoveď: 4	Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+1.000	Odpoveď: 3	Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+0.000	Odpoveď: 4	Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+5.000	Odpoveď: 4.5	Otázka: Napis mi semanticku podobnost tychto dvoch viet na skale od 0-5 a mozes pouzit float, napis mi len cisla vysledku
+4.000	Odpoveď: 4.5	Otázka: Napis mi semanticku podobnost tychto dvoch viet na skale od 0-5 a mozes pouzit float, napis mi len cisla vysledku
+3.000	Odpoveď: 3.5	Otázka: Napis mi semanticku podobnost tychto dvoch viet na skale od 0-5 a mozes pouzit float, napis mi len cisla vysledku
+2.000	Odpoveď: 4.5	Otázka: Napis mi semanticku podobnost tychto dvoch viet na skale od 0-5 a mozes pouzit float, napis mi len cisla vysledku
+1.000	Odpoveď: 3.5	Otázka: Napis mi semanticku podobnost tychto dvoch viet na skale od 0-5 a mozes pouzit float, napis mi len cisla vysledku
+0.000	Odpoveď: 2.5	Otázka: Napis mi semanticku podobnost tychto dvoch viet na skale od 0-5 a mozes pouzit float, napis mi len cisla vysledku
+Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+Odpoveď: 5
+==================================================
+Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+Odpoveď: 5
+==================================================
+Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+Odpoveď: 5
+==================================================
+Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+Odpoveď: 4
+==================================================
+Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+Odpoveď: 3
+==================================================
+Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+Odpoveď: 4
+==================================================

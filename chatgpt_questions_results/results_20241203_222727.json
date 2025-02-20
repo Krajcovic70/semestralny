@@ -1,0 +1,53 @@
+{
+    "question": "what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5",
+    "responses": [
+        {
+            "original_line": "5.000\tVták sa kúpe v umývadle.\tVtáčik sa umýva v umývadle.",
+            "number": "5.000",
+            "text": "Vták sa kúpe v umývadle. Vtáčik sa umýva v umývadle.",
+            "response": "The two sentences, \"Vták sa kúpe v umývadle\" and \"Vtáčik sa umýva v umývadle\", are quite similar in meaning. Both refer to a bird bathing in a sink, but use slightly different terms. On a scale of 0-5, I would rate the semantic text similarity as a 4. This is not an exact science, but an estimation based on the meaning of words and phrases used.",
+            "numerical_response": "0",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "4.000\tV máji 2010 sa jednotky pokúsili o inváziu na Kábul.\tAmerická armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "number": "4.000",
+            "text": "V máji 2010 sa jednotky pokúsili o inváziu na Kábul. Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "response": "4.5",
+            "numerical_response": "4.5",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.000\tJohn povedal, že je považovaný za svedka, ale nie za podozrivého.\t\"Už nie je podozrivý.\" povedal John.",
+            "number": "3.000",
+            "text": "John povedal, že je považovaný za svedka, ale nie za podozrivého. \"Už nie je podozrivý.\" povedal John.",
+            "response": "4",
+            "numerical_response": "4",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "2.000\tZ hniezda vyleteli v skupinách.\tSpoločne vleteli do hniezda.",
+            "number": "2.000",
+            "text": "Z hniezda vyleteli v skupinách. Spoločne vleteli do hniezda.",
+            "response": "The semantics of these two sentences are somewhat similar as they both talk about birds flying out and into the nest. However, the order of events is reversed in the second sentence. On a scale of 0-5, the semantic similarity might be around 3.5.",
+            "numerical_response": "0",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "1.000\tŽena hrá na husliach.\tMladá slečna rada počúva gitaru.",
+            "number": "1.000",
+            "text": "Žena hrá na husliach. Mladá slečna rada počúva gitaru.",
+            "response": "Determining semantic similarity is a complex process that requires understanding the context and meaning of the sentences. In your case, both sentences are about women and musical instruments. However, the first sentence is about a woman playing the violin, and the second is about a young lady who likes listening to the guitar. There's a thematic similarity but the actions are different (playing vs listening) and the instruments are also different (violin vs guitar). Therefore, on a scale of 0-5, I'd rate the semantic similarity as 2.5.",
+            "numerical_response": "0",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "0.000\tJohn išiel na koni za úsvitu spolu s celou skupinou priateľov.\tVýchod slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "number": "0.000",
+            "text": "John išiel na koni za úsvitu spolu s celou skupinou priateľov. Východ slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "response": "As an AI, I don't have access to real-time data processing capabilities. But generally, the semantic similarity of those two sentences would be around 2.5 out of 5. While both sentences discuss a dawn or sunrise event, one talks about a person named John going on a journey with his friends at dawn, while the second one generalizes the beauty of a sunrise if one wakes up early enough. Therefore, the context is somewhat related, but the focus of each sentence is different.",
+            "numerical_response": "2.5",
+            "additional_question_needed": false
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "question": "what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5",
+    "responses": [
+        {
+            "original_line": "5.000\tVták sa kúpe v umývadle.\tVtáčik sa umýva v umývadle.",
+            "number": "5.000",
+            "text": "Vták sa kúpe v umývadle. Vtáčik sa umýva v umývadle.",
+            "response": "4.5",
+            "numerical_response": "4.5",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "4.000\tV máji 2010 sa jednotky pokúsili o inváziu na Kábul.\tAmerická armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "number": "4.000",
+            "text": "V máji 2010 sa jednotky pokúsili o inváziu na Kábul. Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "response": "4.5",
+            "numerical_response": "4.5",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.000\tJohn povedal, že je považovaný za svedka, ale nie za podozrivého.\t\"Už nie je podozrivý.\" povedal John.",
+            "number": "3.000",
+            "text": "John povedal, že je považovaný za svedka, ale nie za podozrivého. \"Už nie je podozrivý.\" povedal John.",
+            "response": "The semantic text similarity of the two sentences, \"John povedal, že je považovaný za svedka, ale nie za podozrivého.\" and \"\"Už nie je podozrivý.\" povedal John.\" would be around 3 out of 5. They both convey the idea that John is no longer a suspect, but they do not have the exact same meaning.",
+            "numerical_response": "3",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "2.000\tZ hniezda vyleteli v skupinách.\tSpoločne vleteli do hniezda.",
+            "number": "2.000",
+            "text": "Z hniezda vyleteli v skupinách. Spoločne vleteli do hniezda.",
+            "response": "The semantics of the two sentences are quite similar, both involve birds leaving and entering a nest in groups. However, the order of events is reversed. Considering this, I'd give it a score of 4 out of 5.",
+            "numerical_response": "4",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "1.000\tŽena hrá na husliach.\tMladá slečna rada počúva gitaru.",
+            "number": "1.000",
+            "text": "Žena hrá na husliach. Mladá slečna rada počúva gitaru.",
+            "response": "As an AI, I cannot provide a specific numeric value for semantic similarity as it would require a complex linguistic analysis that involves understanding context, cultural nuances, and specific language structures. However, I can tell you that these two sentences seem to have a moderate semantic similarity as both involve a female individual and a musical instrument. A rough estimate might be around 3 out of 5 but it is quite subjective.",
+            "numerical_response": "3",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "0.000\tJohn išiel na koni za úsvitu spolu s celou skupinou priateľov.\tVýchod slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "number": "0.000",
+            "text": "John išiel na koni za úsvitu spolu s celou skupinou priateľov. Východ slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "response": "The semantics text similarity of those two sentences is about 2.5. This is because while both sentences talk about the same setting (John going out at dawn with a group of friends), they focus on different aspects - one on the action of John and his friends, and the other on the beauty of the sunrise. Therefore, they are somewhat similar but not identical or very closely related in terms of semantics.",
+            "numerical_response": "2.5",
+            "additional_question_needed": false
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+[
+    {
+        "line_number": 1,
+        "sentence1": "Vták sa kúpe v umývadle.",
+        "sentence2": "Vtáčik sa umýva v umývadle.",
+        "similarity_score": 0.93767249584198
+    },
+    {
+        "line_number": 2,
+        "sentence1": "V máji 2010 sa jednotky pokúsili o inváziu na Kábul.",
+        "sentence2": "Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+        "similarity_score": 0.848359227180481
+    },
+    {
+        "line_number": 3,
+        "sentence1": "John povedal, že je považovaný za svedka, ale nie za podozrivého.",
+        "sentence2": "\"Už nie je podozrivý.\" povedal John.",
+        "similarity_score": 0.6766847372055054
+    },
+    {
+        "line_number": 4,
+        "sentence1": "Z hniezda vyleteli v skupinách.",
+        "sentence2": "Spoločne vleteli do hniezda.",
+        "similarity_score": 0.7583032846450806
+    },
+    {
+        "line_number": 5,
+        "sentence1": "Žena hrá na husliach.",
+        "sentence2": "Mladá slečna rada počúva gitaru.",
+        "similarity_score": 0.470664918422699
+    },
+    {
+        "line_number": 6,
+        "sentence1": "John išiel na koni za úsvitu spolu s celou skupinou priateľov.",
+        "sentence2": "Východ slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+        "similarity_score": 0.3577401041984558
+    },
+    {
+        "line_number": 7,
+        "sentence1": "Vták sa kúpe v umývadle.",
+        "sentence2": "Vtáčik sa umýva v umývadle.",
+        "similarity_score": 0.93767249584198
+    },
+    {
+        "line_number": 8,
+        "sentence1": "V máji 2010 sa jednotky pokúsili o inváziu na Kábul.",
+        "sentence2": "Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+        "similarity_score": 0.848359227180481
+    },
+    {
+        "line_number": 9,
+        "sentence1": "John povedal, že je považovaný za svedka, ale nie za podozrivého.",
+        "sentence2": "\"Už nie je podozrivý.\" povedal John.",
+        "similarity_score": 0.6766847372055054
+    },
+    {
+        "line_number": 10,
+        "sentence1": "Z hniezda vyleteli v skupinách.",
+        "sentence2": "Spoločne vleteli do hniezda.",
+        "similarity_score": 0.7583032846450806
+    },
+    {
+        "line_number": 11,
+        "sentence1": "Žena hrá na husliach.",
+        "sentence2": "Mladá slečna rada počúva gitaru.",
+        "similarity_score": 0.470664918422699
+    },
+    {
+        "line_number": 12,
+        "sentence1": "John išiel na koni za úsvitu spolu s celou skupinou priateľov.",
+        "sentence2": "Východ slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+        "similarity_score": 0.3577401041984558
+    },
+    {
+        "line_number": 13,
+        "sentence1": "Vták sa kúpe v umývadle.",
+        "sentence2": "Vtáčik sa umýva v umývadle.",
+        "similarity_score": 0.93767249584198
+    },
+    {
+        "line_number": 14,
+        "sentence1": "V máji 2010 sa jednotky pokúsili o inváziu na Kábul.",
+        "sentence2": "Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+        "similarity_score": 0.848359227180481
+    },
+    {
+        "line_number": 15,
+        "sentence1": "John povedal, že je považovaný za svedka, ale nie za podozrivého.",
+        "sentence2": "\"Už nie je podozrivý.\" povedal John.",
+        "similarity_score": 0.6766847372055054
+    },
+    {
+        "line_number": 16,
+        "sentence1": "Z hniezda vyleteli v skupinách.",
+        "sentence2": "Spoločne vleteli do hniezda.",
+        "similarity_score": 0.7583032846450806
+    },
+    {
+        "line_number": 17,
+        "sentence1": "Žena hrá na husliach.",
+        "sentence2": "Mladá slečna rada počúva gitaru.",
+        "similarity_score": 0.470664918422699
+    },
+    {
+        "line_number": 18,
+        "sentence1": "John išiel na koni za úsvitu spolu s celou skupinou priateľov.",
+        "sentence2": "Východ slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+        "similarity_score": 0.3577401041984558
+    }
+]

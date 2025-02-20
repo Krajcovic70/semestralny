@@ -1,0 +1,8 @@
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+
+4.5
+4.5
+4
+3
+3
+0

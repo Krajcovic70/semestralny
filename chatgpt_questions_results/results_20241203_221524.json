@@ -1,0 +1,47 @@
+{
+    "question": "what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5",
+    "responses": [
+        {
+            "original_line": "5.000\tVták sa kúpe v umývadle.\tVtáčik sa umýva v umývadle.",
+            "number": "5.000",
+            "text": "Vták sa kúpe v umývadle. Vtáčik sa umýva v umývadle.",
+            "response": "4.5",
+            "numerical_response": "4.5"
+        },
+        {
+            "original_line": "4.000\tV máji 2010 sa jednotky pokúsili o inváziu na Kábul.\tAmerická armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "number": "4.000",
+            "text": "V máji 2010 sa jednotky pokúsili o inváziu na Kábul. Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "response": "4.5",
+            "numerical_response": "4.5"
+        },
+        {
+            "original_line": "3.000\tJohn povedal, že je považovaný za svedka, ale nie za podozrivého.\t\"Už nie je podozrivý.\" povedal John.",
+            "number": "3.000",
+            "text": "John povedal, že je považovaný za svedka, ale nie za podozrivého. \"Už nie je podozrivý.\" povedal John.",
+            "response": "The semantic text similarity of those two sentences would likely be around 4. They both convey similar information about John not being considered a suspect. However, they are not identical in wording or structure, hence not a perfect 5.",
+            "numerical_response": "4"
+        },
+        {
+            "original_line": "2.000\tZ hniezda vyleteli v skupinách.\tSpoločne vleteli do hniezda.",
+            "number": "2.000",
+            "text": "Z hniezda vyleteli v skupinách. Spoločne vleteli do hniezda.",
+            "response": "The semantic similarity of these two sentences is around 3. The two sentences are related as they both discuss birds leaving and entering a nest, however, they are not exactly the same in meaning.",
+            "numerical_response": "3"
+        },
+        {
+            "original_line": "1.000\tŽena hrá na husliach.\tMladá slečna rada počúva gitaru.",
+            "number": "1.000",
+            "text": "Žena hrá na husliach. Mladá slečna rada počúva gitaru.",
+            "response": "As an AI, I don't have a function to directly calculate semantic similarity. However, considering the nature of these two sentences, they both involve women and music instruments. I would estimate their similarity to be around 3 on a scale from 0 to 5, where 0 is no similarity and 5 is identical. Please note this is an estimation, for a precise calculation you would need a tool designed for semantic similarity calculation.",
+            "numerical_response": "3"
+        },
+        {
+            "original_line": "0.000\tJohn išiel na koni za úsvitu spolu s celou skupinou priateľov.\tVýchod slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "number": "0.000",
+            "text": "John išiel na koni za úsvitu spolu s celou skupinou priateľov. Východ slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "response": "As an AI, I don't have actual feelings or perceptions, but from a purely analytical standpoint, it seems that the text similarity would be around 2. Both sentences mention \"úsvitu\" (dawn) and describe a situation related to this time of day. However, the first sentence is about a person named John going on a horse with friends at dawn, while the second one is about the beauty of the sunrise at dawn. So while they share a common theme (dawn), they discuss different aspects of it.",
+            "numerical_response": "2"
+        }
+    ]
+}

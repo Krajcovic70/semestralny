@@ -1,0 +1,32 @@
+@article{pesquita2009semantic,
+  title={Semantic similarity in biomedical ontologies},
+  author={Pesquita, Catia and Faria, Daniel and Falcao, Andre O and Lord, Phillip and Couto, Francisco M},
+  journal={PLoS computational biology},
+  volume={5},
+  number={7},
+  pages={e1000443},
+  year={2009},
+  publisher={Public Library of Science San Francisco, USA}
+}
+
+
+@article{majumder2016semantic,
+  title={Semantic textual similarity methods, tools, and applications: A survey},
+  author={Majumder, Goutam and Pakray, Partha and Gelbukh, Alexander and Pinto, David},
+  journal={Computaci{\'o}n y Sistemas},
+  volume={20},
+  number={4},
+  pages={647--665},
+  year={2016},
+  publisher={Instituto Polit{\'e}cnico Nacional, Centro de Investigaci{\'o}n en Computaci{\'o}n}
+}
+
+@inproceedings{mihalcea2006corpus,
+  title={Corpus-based and knowledge-based measures of text semantic similarity},
+  author={Mihalcea, Rada and Corley, Courtney and Strapparava, Carlo and others},
+  booktitle={Aaai},
+  volume={6},
+  number={2006},
+  pages={775--780},
+  year={2006}
+}

@@ -1,0 +1,50 @@
+4.5	Skupina detí sa hrá na dvore a v pozadí stojí starý muž	Skupina chlapcov na dvore hrá a muž stojí v pozadí
+3.2	V dome sa hrá skupina detí	Skupina detí sa hrá na dvore a v pozadí stojí starý muž
+4.7	Mladí chlapci hrajú vonku a muž sa usmieva v okolí	Deti hrajú vonku v blízkosti muža s úsmevom
+3.6	Mladí chlapci hrajú vonku a muž sa usmieva v okolí	Neexistuje žiaden chlapec, ktorý hrá vonku a nie je muž s úsmevom
+3.4	Deti hrajú vonku v blízkosti muža s úsmevom	Skupina detí sa hrá na dvore a v pozadí stojí starý muž
+3.3	Neexistuje žiaden chlapec, ktorý hrá vonku a nie je muž s úsmevom	Skupina detí sa hrá na dvore a v pozadí stojí starý muž
+3.7	Skupina chlapcov na dvore hrá a muž stojí v pozadí	Mladí chlapci hrajú vonku a muž sa usmieva v okolí
+3	V dome sa hrá skupina detí	Mladí chlapci hrajú vonku a muž sa usmieva v okolí
+3.7	Mladí chlapci hrajú vonku a muž sa usmieva v okolí	Skupina detí hrá na dvore a v pozadí stojí starý muž
+4.9	Hnedý pes útočí na ďalšie zviera pred vysokým mužom v nohaviciach	Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach
+3.665	Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach	Hnedý pes pomáha inému zvieraťa pred mužom v nohaviciach
+4	Bojujú dvaja psi	Dvaja psi sú zápasia a objímajú sa
+3.3	Dvaja psi sú zápasia a objímajú sa	Neexistuje žiadny zápas a objímanie psov
+3.5	Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach	Bojujú dvaja psi
+2.7	Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach	Neexistuje žiadny zápas a objímanie psov
+2.9	Dvaja psi sú zápasia a objímajú sa	Hnedý pes útočí na ďalšie zviera pred vysokým mužom v nohaviciach
+2.3	Dvaja psi sú zápasia a objímajú sa	Hnedý pes pomáha inému zvieraťa pred mužom v nohaviciach
+3.2	Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach	Dvaja psi sú zápasia a objímajú sa
+4.9	Osoba v čiernej bunde robí triky na motorke	Muž v čiernej bunde robí triky na motorke
+3.6	V čiernej bunde nie je muž, ktorý robí triky na motorke	Osoba v čiernej bunde robí triky na motorke
+3	Osoba v čiernej bunde robí triky na motorke	Osoba na čiernej motorke robí triky s bundou
+4.3	Kvalifikovaný človek jazdí na bicykli na jednom kolese	Osoba jazdí na bicykli na jednom kolese
+4.1	Nikto jazdí na bicykli na jednom kolese	Osoba jazdí na bicykli na jednom kolese
+3.4	Osoba v čiernej bunde robí triky na motorke	Kvalifikovaný človek jazdí na bicykli na jednom kolese
+2.8	Nikto jazdí na bicykli na jednom kolese	Osoba v čiernej bunde robí triky na motorke
+3.7	Osoba jazdí na bicykli na jednom kolese	Muž v čiernej bunde robí triky na motorke
+3.2	Osoba jazdí na bicykli na jednom kolese	V čiernej bunde nie je muž, ktorý robí triky na motorke
+3.4	Osoba na čiernej motorke robí triky s bundou	Osoba jazdí na bicykli na jednom kolese
+3.3	Osoba jazdí na bicykli na jednom kolese	Osoba v čiernej bunde robí triky na motorke
+4.9	Muž s dresom namáča loptu pri basketbalovej hre	Loptu je namočený mužom s dresom pri basketbalovej hre
+4	Muž s dresom namáča loptu pri basketbalovej hre	Pri basketbalovej hre nie je žiaden človek, ktorý by dal loptu
+4.2	Hra basketbalu pozostáva z toho, že lopta namočila muž s dresom	Muž s dresom namáča loptu pri basketbalovej hre
+4.7	Muž, ktorý hrá Basketbal do siete a dav je v pozadí	Hráč odvádza basketbal do siete a dav je v pozadí
+3.9	Hráčovi chýba kôš a dav je na pozadí	Hráč odvádza basketbal do siete a dav je v pozadí
+3.6	Muž s dresom dunuje loptu pri basketbalovej hre	Muž, ktorý hrá Basketbal do siete a dav je v pozadí
+3.5	Muž s dresom namáča loptu pri basketbalovej hre	Hráčovi chýba kôš a dav je v pozadí
+4	Hráč odvádza basketbal do siete a dav je v pozadí	Loptu je namočený mužom s dresom pri basketbalovej hre
+3.5	Pri basketbalovej hre nie je žiaden človek, ktorý by dal loptu	Hráč odvádza basketbal do siete a dav je v pozadí
+3.6	Hra basketbalu pozostáva z toho, že lopta namočila muž s dresom	Hráč odvádza basketbal do siete a dav je v pozadí
+3.8	Hráč odvádza basketbal do siete a dav je v pozadí	Muž s dresom namáča loptu pri basketbalovej hre
+4.4	Dvaja ľudia kickbox a diváci sledujú	Dvaja ľudia bojujú a diváci sledujú
+3.4	Dvaja ľudia kickbox a diváci sa nepozerajú	Dvaja ľudia kickbox a diváci sledujú
+4	Dvaja diváci kickboxing a niektorí ľudia sledujú	Dvaja ľudia kickbox a diváci sledujú
+4.9	Dve mladé ženy sa uvádzajú v boji o kickbox	Dve ženy sa v zápase kickboxu uvádzajú
+3.9	Dve mladé ženy sa netýkajú v boji o kickbox	Dve ženy sa v zápase kickboxu uvádzajú
+3.9	Dvaja ľudia kickbox a diváci sledujú	Dve mladé ženy sa uvádzajú v boji o kickbox
+3.415	Dvaja ľudia kickbox a diváci sledujú	Dve mladé ženy sa netýkajú v boji o kickbox
+3.7	Dve ženy sa v zápase kickboxu uvádzajú	Dvaja ľudia bojujú a diváci sledujú
+3.7	Dve ženy sa v zápase kickboxu uvádzajú	Dvaja ľudia kickbox a diváci sa nepozerajú
+3.6	Dvaja diváci kickboxing a niektorí ľudia sledujú	Dve ženy sa v zápase kickboxu uvádzajú

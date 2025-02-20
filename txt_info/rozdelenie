@@ -1,0 +1,48 @@
+
+Resnik's, Lin's, and Jiang and Conrath's
+
+Knowledge based methods
+  * Edge Based Method
+     - Path Length Approach
+          o Shortest Path Length
+          o Weighted Shortest Path Length
+     - Depth Relative Scaling
+     - Conceptual Similarity
+     - Normalized Path Length
+     - Leacock & Chodorow
+     - Wu and Palmer
+  * Information Content based Method
+  * Feature based Method
+  * Overlap
+     - Lesk
+
+Statistical/ Corpus-Based Similarity
+    * Latent Semantic Analysis (LSA)
+    * Generalized Latent Semantic Analysis (GLSA)
+    * Explicit Semantic Analysis (ESA)
+    * Pointwise Mutual Information - Information Retrieval (PMI - IR)
+    * Normalized Google Distance (NGD)
+    * Hyperspace Analogue to Language (HAL)
+
+String-Based Similarity Measure
+    * Character-Based Similarity Measure
+        - Longest Common Substring (LCS)
+        - Damerau-Levenshtein
+        - Jaro
+        - Jaro-Winkler
+        - Needleman-Wunsch
+        - Smith-Waterman
+        - n-gram
+        - syntactic n-gram
+    * Term-Based Similarity Measure
+        - Block Distance
+        - Cosine Similarity
+        - Soft Cosine Similarity
+        - Sorensen-Dice index
+        - Euclidean Distance
+        - Jaccard Index
+        - Simple Matching Coefficient (SMC)
+        - Overlap Coefficient
+
+
+semantic textual similarity

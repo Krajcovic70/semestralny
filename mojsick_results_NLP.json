@@ -1,0 +1,302 @@
+[
+    {
+        "line_number": 1,
+        "sentence1": "Skupina detí sa hrá na dvore a v pozadí stojí starý muž",
+        "sentence2": "Skupina chlapcov na dvore hrá a muž stojí v pozadí",
+        "similarity_score": 0.8822801113128662
+    },
+    {
+        "line_number": 2,
+        "sentence1": "V dome sa hrá skupina detí",
+        "sentence2": "Skupina detí sa hrá na dvore a v pozadí stojí starý muž",
+        "similarity_score": 0.5709627866744995
+    },
+    {
+        "line_number": 3,
+        "sentence1": "Mladí chlapci hrajú vonku a muž sa usmieva v okolí",
+        "sentence2": "Deti hrajú vonku v blízkosti muža s úsmevom",
+        "similarity_score": 0.9075154066085815
+    },
+    {
+        "line_number": 4,
+        "sentence1": "Mladí chlapci hrajú vonku a muž sa usmieva v okolí",
+        "sentence2": "Neexistuje žiaden chlapec, ktorý hrá vonku a nie je muž s úsmevom",
+        "similarity_score": 0.6036665439605713
+    },
+    {
+        "line_number": 5,
+        "sentence1": "Deti hrajú vonku v blízkosti muža s úsmevom",
+        "sentence2": "Skupina detí sa hrá na dvore a v pozadí stojí starý muž",
+        "similarity_score": 0.7702324986457825
+    },
+    {
+        "line_number": 6,
+        "sentence1": "Neexistuje žiaden chlapec, ktorý hrá vonku a nie je muž s úsmevom",
+        "sentence2": "Skupina detí sa hrá na dvore a v pozadí stojí starý muž",
+        "similarity_score": 0.45386385917663574
+    },
+    {
+        "line_number": 7,
+        "sentence1": "Skupina chlapcov na dvore hrá a muž stojí v pozadí",
+        "sentence2": "Mladí chlapci hrajú vonku a muž sa usmieva v okolí",
+        "similarity_score": 0.8137510418891907
+    },
+    {
+        "line_number": 8,
+        "sentence1": "V dome sa hrá skupina detí",
+        "sentence2": "Mladí chlapci hrajú vonku a muž sa usmieva v okolí",
+        "similarity_score": 0.5401570796966553
+    },
+    {
+        "line_number": 9,
+        "sentence1": "Mladí chlapci hrajú vonku a muž sa usmieva v okolí",
+        "sentence2": "Skupina detí hrá na dvore a v pozadí stojí starý muž",
+        "similarity_score": 0.704464316368103
+    },
+    {
+        "line_number": 10,
+        "sentence1": "Hnedý pes útočí na ďalšie zviera pred vysokým mužom v nohaviciach",
+        "sentence2": "Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach",
+        "similarity_score": 0.972983717918396
+    },
+    {
+        "line_number": 11,
+        "sentence1": "Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach",
+        "sentence2": "Hnedý pes pomáha inému zvieraťa pred mužom v nohaviciach",
+        "similarity_score": 0.833362340927124
+    },
+    {
+        "line_number": 12,
+        "sentence1": "Bojujú dvaja psi",
+        "sentence2": "Dvaja psi sú zápasia a objímajú sa",
+        "similarity_score": 0.8283573389053345
+    },
+    {
+        "line_number": 13,
+        "sentence1": "Dvaja psi sú zápasia a objímajú sa",
+        "sentence2": "Neexistuje žiadny zápas a objímanie psov",
+        "similarity_score": 0.550540030002594
+    },
+    {
+        "line_number": 14,
+        "sentence1": "Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach",
+        "sentence2": "Bojujú dvaja psi",
+        "similarity_score": 0.7470767498016357
+    },
+    {
+        "line_number": 15,
+        "sentence1": "Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach",
+        "sentence2": "Neexistuje žiadny zápas a objímanie psov",
+        "similarity_score": 0.3834702968597412
+    },
+    {
+        "line_number": 16,
+        "sentence1": "Dvaja psi sú zápasia a objímajú sa",
+        "sentence2": "Hnedý pes útočí na ďalšie zviera pred vysokým mužom v nohaviciach",
+        "similarity_score": 0.5952976942062378
+    },
+    {
+        "line_number": 17,
+        "sentence1": "Dvaja psi sú zápasia a objímajú sa",
+        "sentence2": "Hnedý pes pomáha inému zvieraťa pred mužom v nohaviciach",
+        "similarity_score": 0.568800687789917
+    },
+    {
+        "line_number": 18,
+        "sentence1": "Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach",
+        "sentence2": "Dvaja psi sú zápasia a objímajú sa",
+        "similarity_score": 0.6147440671920776
+    },
+    {
+        "line_number": 19,
+        "sentence1": "Osoba v čiernej bunde robí triky na motorke",
+        "sentence2": "Muž v čiernej bunde robí triky na motorke",
+        "similarity_score": 0.9611673355102539
+    },
+    {
+        "line_number": 20,
+        "sentence1": "V čiernej bunde nie je muž, ktorý robí triky na motorke",
+        "sentence2": "Osoba v čiernej bunde robí triky na motorke",
+        "similarity_score": 0.6145051121711731
+    },
+    {
+        "line_number": 21,
+        "sentence1": "Osoba v čiernej bunde robí triky na motorke",
+        "sentence2": "Osoba na čiernej motorke robí triky s bundou",
+        "similarity_score": 0.9067078232765198
+    },
+    {
+        "line_number": 22,
+        "sentence1": "Kvalifikovaný človek jazdí na bicykli na jednom kolese",
+        "sentence2": "Osoba jazdí na bicykli na jednom kolese",
+        "similarity_score": 0.9357403516769409
+    },
+    {
+        "line_number": 23,
+        "sentence1": "Nikto jazdí na bicykli na jednom kolese",
+        "sentence2": "Osoba jazdí na bicykli na jednom kolese",
+        "similarity_score": 0.6957526803016663
+    },
+    {
+        "line_number": 24,
+        "sentence1": "Osoba v čiernej bunde robí triky na motorke",
+        "sentence2": "Kvalifikovaný človek jazdí na bicykli na jednom kolese",
+        "similarity_score": 0.5482624173164368
+    },
+    {
+        "line_number": 25,
+        "sentence1": "Nikto jazdí na bicykli na jednom kolese",
+        "sentence2": "Osoba v čiernej bunde robí triky na motorke",
+        "similarity_score": 0.3146665692329407
+    },
+    {
+        "line_number": 26,
+        "sentence1": "Osoba jazdí na bicykli na jednom kolese",
+        "sentence2": "Muž v čiernej bunde robí triky na motorke",
+        "similarity_score": 0.5199455618858337
+    },
+    {
+        "line_number": 27,
+        "sentence1": "Osoba jazdí na bicykli na jednom kolese",
+        "sentence2": "V čiernej bunde nie je muž, ktorý robí triky na motorke",
+        "similarity_score": 0.35211336612701416
+    },
+    {
+        "line_number": 28,
+        "sentence1": "Osoba na čiernej motorke robí triky s bundou",
+        "sentence2": "Osoba jazdí na bicykli na jednom kolese",
+        "similarity_score": 0.5702178478240967
+    },
+    {
+        "line_number": 29,
+        "sentence1": "Osoba jazdí na bicykli na jednom kolese",
+        "sentence2": "Osoba v čiernej bunde robí triky na motorke",
+        "similarity_score": 0.5633130073547363
+    },
+    {
+        "line_number": 30,
+        "sentence1": "Muž s dresom namáča loptu pri basketbalovej hre",
+        "sentence2": "Loptu je namočený mužom s dresom pri basketbalovej hre",
+        "similarity_score": 0.9509912729263306
+    },
+    {
+        "line_number": 31,
+        "sentence1": "Muž s dresom namáča loptu pri basketbalovej hre",
+        "sentence2": "Pri basketbalovej hre nie je žiaden človek, ktorý by dal loptu",
+        "similarity_score": 0.6200994849205017
+    },
+    {
+        "line_number": 32,
+        "sentence1": "Hra basketbalu pozostáva z toho, že lopta namočila muž s dresom",
+        "sentence2": "Muž s dresom namáča loptu pri basketbalovej hre",
+        "similarity_score": 0.8777410984039307
+    },
+    {
+        "line_number": 33,
+        "sentence1": "Muž, ktorý hrá Basketbal do siete a dav je v pozadí",
+        "sentence2": "Hráč odvádza basketbal do siete a dav je v pozadí",
+        "similarity_score": 0.9430875778198242
+    },
+    {
+        "line_number": 34,
+        "sentence1": "Hráčovi chýba kôš a dav je na pozadí",
+        "sentence2": "Hráč odvádza basketbal do siete a dav je v pozadí",
+        "similarity_score": 0.7243214845657349
+    },
+    {
+        "line_number": 35,
+        "sentence1": "Muž s dresom dunuje loptu pri basketbalovej hre",
+        "sentence2": "Muž, ktorý hrá Basketbal do siete a dav je v pozadí",
+        "similarity_score": 0.847903847694397
+    },
+    {
+        "line_number": 36,
+        "sentence1": "Muž s dresom namáča loptu pri basketbalovej hre",
+        "sentence2": "Hráčovi chýba kôš a dav je v pozadí",
+        "similarity_score": 0.46153515577316284
+    },
+    {
+        "line_number": 37,
+        "sentence1": "Hráč odvádza basketbal do siete a dav je v pozadí",
+        "sentence2": "Loptu je namočený mužom s dresom pri basketbalovej hre",
+        "similarity_score": 0.8055338859558105
+    },
+    {
+        "line_number": 38,
+        "sentence1": "Pri basketbalovej hre nie je žiaden človek, ktorý by dal loptu",
+        "sentence2": "Hráč odvádza basketbal do siete a dav je v pozadí",
+        "similarity_score": 0.5841416120529175
+    },
+    {
+        "line_number": 39,
+        "sentence1": "Hra basketbalu pozostáva z toho, že lopta namočila muž s dresom",
+        "sentence2": "Hráč odvádza basketbal do siete a dav je v pozadí",
+        "similarity_score": 0.7823543548583984
+    },
+    {
+        "line_number": 40,
+        "sentence1": "Hráč odvádza basketbal do siete a dav je v pozadí",
+        "sentence2": "Muž s dresom namáča loptu pri basketbalovej hre",
+        "similarity_score": 0.7498667240142822
+    },
+    {
+        "line_number": 41,
+        "sentence1": "Dvaja ľudia kickbox a diváci sledujú",
+        "sentence2": "Dvaja ľudia bojujú a diváci sledujú",
+        "similarity_score": 0.8054391145706177
+    },
+    {
+        "line_number": 42,
+        "sentence1": "Dvaja ľudia kickbox a diváci sa nepozerajú",
+        "sentence2": "Dvaja ľudia kickbox a diváci sledujú",
+        "similarity_score": 0.8916975259780884
+    },
+    {
+        "line_number": 43,
+        "sentence1": "Dvaja diváci kickboxing a niektorí ľudia sledujú",
+        "sentence2": "Dvaja ľudia kickbox a diváci sledujú",
+        "similarity_score": 0.9716581702232361
+    },
+    {
+        "line_number": 44,
+        "sentence1": "Dve mladé ženy sa uvádzajú v boji o kickbox",
+        "sentence2": "Dve ženy sa v zápase kickboxu uvádzajú",
+        "similarity_score": 0.9592637419700623
+    },
+    {
+        "line_number": 45,
+        "sentence1": "Dve mladé ženy sa netýkajú v boji o kickbox",
+        "sentence2": "Dve ženy sa v zápase kickboxu uvádzajú",
+        "similarity_score": 0.8193064332008362
+    },
+    {
+        "line_number": 46,
+        "sentence1": "Dvaja ľudia kickbox a diváci sledujú",
+        "sentence2": "Dve mladé ženy sa uvádzajú v boji o kickbox",
+        "similarity_score": 0.7133569121360779
+    },
+    {
+        "line_number": 47,
+        "sentence1": "Dvaja ľudia kickbox a diváci sledujú",
+        "sentence2": "Dve mladé ženy sa netýkajú v boji o kickbox",
+        "similarity_score": 0.6162797808647156
+    },
+    {
+        "line_number": 48,
+        "sentence1": "Dve ženy sa v zápase kickboxu uvádzajú",
+        "sentence2": "Dvaja ľudia bojujú a diváci sledujú",
+        "similarity_score": 0.617038369178772
+    },
+    {
+        "line_number": 49,
+        "sentence1": "Dve ženy sa v zápase kickboxu uvádzajú",
+        "sentence2": "Dvaja ľudia kickbox a diváci sa nepozerajú",
+        "similarity_score": 0.6974341869354248
+    },
+    {
+        "line_number": 50,
+        "sentence1": "Dvaja diváci kickboxing a niektorí ľudia sledujú",
+        "sentence2": "Dve ženy sa v zápase kickboxu uvádzajú",
+        "similarity_score": 0.7641788125038147
+    }
+]

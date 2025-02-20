@@ -1,0 +1,65 @@
+{
+    "question": "what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5",
+    "responses": [
+        {
+            "original_line": "4.5\tSkupina detí sa hrá na dvore a v pozadí stojí starý muž\tSkupina chlapcov na dvore hrá a muž stojí v pozadí",
+            "response": "4.7",
+            "numerical_response": 4.7,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.2\tV dome sa hrá skupina detí\tSkupina detí sa hrá na dvore a v pozadí stojí starý muž",
+            "response": "2.5",
+            "numerical_response": 2.5,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "4.7\tMladí chlapci hrajú vonku a muž sa usmieva v okolí\tDeti hrajú vonku v blízkosti muža s úsmevom",
+            "response": "4.5",
+            "numerical_response": 4.5,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.6\tMladí chlapci hrajú vonku a muž sa usmieva v okolí\tNeexistuje žiaden chlapec, ktorý hrá vonku a nie je muž s úsmevom",
+            "response": "2.5",
+            "numerical_response": 2.5,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.4\tDeti hrajú vonku v blízkosti muža s úsmevom\tSkupina detí sa hrá na dvore a v pozadí stojí starý muž",
+            "response": "4.3",
+            "numerical_response": 4.3,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.3\tNeexistuje žiaden chlapec, ktorý hrá vonku a nie je muž s úsmevom\tSkupina detí sa hrá na dvore a v pozadí stojí starý muž",
+            "response": "2.5",
+            "numerical_response": 2.5,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.7\tSkupina chlapcov na dvore hrá a muž stojí v pozadí\tMladí chlapci hrajú vonku a muž sa usmieva v okolí",
+            "response": "4.5",
+            "numerical_response": 4.5,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3\tV dome sa hrá skupina detí\tMladí chlapci hrajú vonku a muž sa usmieva v okolí",
+            "response": "1.5",
+            "numerical_response": 1.5,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.7\tMladí chlapci hrajú vonku a muž sa usmieva v okolí\tSkupina detí hrá na dvore a v pozadí stojí starý muž",
+            "response": "4.2",
+            "numerical_response": 4.2,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "4.9\tHnedý pes útočí na ďalšie zviera pred vysokým mužom v nohaviciach\tHnedý pes útočí na ďalšie zviera pred mužom v nohaviciach",
+            "response": "4.8",
+            "numerical_response": 4.8,
+            "additional_question_needed": false
+        }
+    ]
+}

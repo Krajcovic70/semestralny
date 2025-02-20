@@ -1,0 +1,33 @@
+Posed Question: Your posed question goes here.
+Intermediate Results:
+==================================================
+Row 1:
+Text1: Vták sa kúpe v umývadle.
+Text2: Vtáčik sa umýva v umývadle.
+Similarity: 0.9218847167061404
+--------------------------------------------------
+Row 2:
+Text1: V máji 2010 sa jednotky pokúsili o inváziu na Kábul.
+Text2: Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010.
+Similarity: 0.8991818367516806
+--------------------------------------------------
+Row 3:
+Text1: John povedal, že je považovaný za svedka, ale nie za podozrivého.
+Text2: Už nie je podozrivý. povedal John.
+Similarity: 0.8979771006742915
+--------------------------------------------------
+Row 4:
+Text1: Z hniezda vyleteli v skupinách.
+Text2: Spoločne vleteli do hniezda.
+Similarity: 0.9064404469485836
+--------------------------------------------------
+Row 5:
+Text1: Žena hrá na husliach.
+Text2: Mladá slečna rada počúva gitaru.
+Similarity: 0.8792211488203776
+--------------------------------------------------
+Row 6:
+Text1: John išiel na koni za úsvitu spolu s celou skupinou priateľov.
+Text2: Východ slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.
+Similarity: 0.786427532137106
+--------------------------------------------------

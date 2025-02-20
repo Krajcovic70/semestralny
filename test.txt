@@ -1,0 +1,12 @@
+4.5	Skupina detí sa hrá na dvore a v pozadí stojí starý muž	Skupina chlapcov na dvore hrá a muž stojí v pozadí
+3.2	V dome sa hrá skupina detí	Skupina detí sa hrá na dvore a v pozadí stojí starý muž
+4.7	Mladí chlapci hrajú vonku a muž sa usmieva v okolí	Deti hrajú vonku v blízkosti muža s úsmevom
+3.6	Mladí chlapci hrajú vonku a muž sa usmieva v okolí	Neexistuje žiaden chlapec, ktorý hrá vonku a nie je muž s úsmevom
+3.4	Deti hrajú vonku v blízkosti muža s úsmevom	Skupina detí sa hrá na dvore a v pozadí stojí starý muž
+3.3	Neexistuje žiaden chlapec, ktorý hrá vonku a nie je muž s úsmevom	Skupina detí sa hrá na dvore a v pozadí stojí starý muž
+3.7	Skupina chlapcov na dvore hrá a muž stojí v pozadí	Mladí chlapci hrajú vonku a muž sa usmieva v okolí
+3	V dome sa hrá skupina detí	Mladí chlapci hrajú vonku a muž sa usmieva v okolí
+3.7	Mladí chlapci hrajú vonku a muž sa usmieva v okolí	Skupina detí hrá na dvore a v pozadí stojí starý muž
+4.9	Hnedý pes útočí na ďalšie zviera pred vysokým mužom v nohaviciach	Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach
+3.665	Hnedý pes útočí na ďalšie zviera pred mužom v nohaviciach	Hnedý pes pomáha inému zvieraťa pred mužom v nohaviciach
+4	Bojujú dvaja psi	Dvaja psi sú zápasia a objímajú sa

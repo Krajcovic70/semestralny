@@ -1,0 +1,2 @@
+Otázka: What is semantics text similarity of those two sentences? They are in slovak language and please respond in number float or int on scale 0-5.
+Pearson correlation coefficient: 0.7396288325823209

@@ -1,0 +1,170 @@
+Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+Pearson correlation coefficient: 0.8783100656536799
+==================================================
+Otázka: Napis mi semanticku podobnost tychto dvoch viet na skale od 0-5 a mozes pouzit float, napis mi len cisla vysledku
+Pearson correlation coefficient: 0.7797157176571878
+==================================================
+Otázka: Napis mi semanticku podobnost tychto dvoch viet na skale od 0-5 a mozes pouzit float, napis mi len cisla vysledku
+Pearson correlation coefficient: 0.6831300510639732
+==================================================
+Otázka: aka je semanticka podobnost dvoch textov, ktore ti davam a odpoved mi daj prosim len ako cislo ktore bude od 0-5 a moze by na hocikolko desatinnych miest. chcem ale len cislo a nic ine
+Pearson correlation coefficient: 0.5982300846395923
+==================================================
+Otázka: daj mi cislo 0-5 pre kazdu dvojicu tychto viet podla toho ako su si podobne
+Pearson correlation coefficient: 0.6388765649999399
+==================================================
+Otázka: Aka je podobnost tychto textov na skale 0-5? Napis mi len cislo a nic viac
+Pearson correlation coefficient: 0.8280786712108249
+==================================================
+Otázka: aka je semanticka podobnost tychto dvoch textov daj mi ako odpoved len cislo
+Pearson correlation coefficient: 0.6322112603378643
+==================================================
+Otázka: aka je semanticka podobnost tychto dvoch textov daj mi ako odpoved len cislo na skale 0-5
+Pearson correlation coefficient: 0.8827348295047495
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8839656943780168
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.3380617018914066
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.9639520422837479
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.9207331376480423
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8295610435246767
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Error pri konverzii dát: array must not contain infs or NaNs
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8117705516778917
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.9621404708847276
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Error pri konverzii dát: could not convert string to float: 'I need a number'==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Error pri konverzii dát: could not convert string to float: 'I need a number'==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.1264573889314176
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: -0.12865482375102444
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8379061268230326
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.9499406654652224
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.9683296637314884
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.953747635118964
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language from 0-nothing to do with it to 5-exact same
+Pearson correlation coefficient: 0.7027642214999339
+==================================================
+Otázka: Can you evaluate the semantic similarity between two sentences on a scale from 0.0 to 5.0?
+Error pri konverzii dát: could not convert string to float: 'No valid number found'==================================================
+Otázka: Can you evaluate the semantic similarity between two sentences on a scale from 0.0 to 5.0?
+Error pri konverzii dát: could not convert string to float: 'No valid score found'==================================================
+Otázka: Can you evaluate the semantic similarity between two sentences on a scale from 0.0 to 5.0?
+Pearson correlation coefficient: 0.3887455346955541
+==================================================
+Otázka: Can you evaluate the semantic similarity between two sentences on a scale from 0.0 to 5.0? the two texts are in slovak language
+Pearson correlation coefficient: 0.5195410274245701
+==================================================
+Otázka: Evaluate semantics similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5.
+Pearson correlation coefficient: 0.9165151389911681
+==================================================
+Otázka: Evaluate semantics similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5.
+Pearson correlation coefficient: 0.9024760684844733
+==================================================
+Otázka: Evaluate semantics similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5.
+Pearson correlation coefficient: 0.8154904233293434
+==================================================
+Otázka: Evaluate semantics similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5.
+Pearson correlation coefficient: 0.9128492470375245
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8931977372352651
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8280786712108248
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8280786712108248
+==================================================
+Otázka: 
+Error: Počet originálnych a vypočítaných skóre sa nezhoduje.==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8557945674266756
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8557945674266756
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8557945674266756
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Error: Počet originálnych a vypočítaných skóre sa nezhoduje.==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8557945674266756
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Error: Počet originálnych a vypočítaných skôre sa nezhoduje.==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8557945674266756
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8279902900496368
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8279902900496368
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8739695897586162
+==================================================
+Otázka: what is semantics textual similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-
+Pearson correlation coefficient: 0.805248618926379
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8008075518142515
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.8727450604798309
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5"
+Pearson correlation coefficient: 0.8727450604798309
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.7947113737348327
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.7947113737348327
+==================================================
+Otázka: what is semantics text similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5
+Pearson correlation coefficient: 0.5545459064169311
+==================================================
+Otázka: What is semantics text similarity of those two sentences? They are in slovak language and please respond in number float or int on scale 0-5.
+Pearson correlation coefficient: 0.7396288325823209
+==================================================
+Otázka: What is semantics text similarity of those two sentences? They are in slovak language and please respond in number float or int on scale 0-5.
+Pearson correlation coefficient: 0.7801211848631616
+==================================================
+Otázka: Aká je sémantická podobnosť týchto dvoch textov? Daj mi ako odpoveď len číslo na škále 0-5.
+Pearson correlation coefficient: 0.7086245493371975
+==================================================
+Otázka: What is semantics text similarity of those two sentences? They are in slovak language and please respond in number float or int on scale 0-5.
+Pearson correlation coefficient: 0.6920843736208527
+==================================================
+Otázka: Aká je sémantická podobnosť týchto dvoch textov? Daj mi ako odpoveď len číslo na škále 0-5.
+Pearson correlation coefficient: 0.6864503380138106
+==================================================

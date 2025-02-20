@@ -1,0 +1,53 @@
+{
+    "question": "Evaluate semantics similarity of those two sentences? they are in slovak language and pleas respond in number float or int on scale 0-5.",
+    "responses": [
+        {
+            "original_line": "5.000\tVták sa kúpe v umývadle.\tVtáčik sa umýva v umývadle.",
+            "number": "5.000",
+            "text": "Vták sa kúpe v umývadle. Vtáčik sa umýva v umývadle.",
+            "response": "4.5",
+            "numerical_response": "4.5",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "4.000\tV máji 2010 sa jednotky pokúsili o inváziu na Kábul.\tAmerická armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "number": "4.000",
+            "text": "V máji 2010 sa jednotky pokúsili o inváziu na Kábul. Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "response": "4.5",
+            "numerical_response": "4.5",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.000\tJohn povedal, že je považovaný za svedka, ale nie za podozrivého.\t\"Už nie je podozrivý.\" povedal John.",
+            "number": "3.000",
+            "text": "John povedal, že je považovaný za svedka, ale nie za podozrivého. \"Už nie je podozrivý.\" povedal John.",
+            "response": "4.5",
+            "numerical_response": "4.5",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "2.000\tZ hniezda vyleteli v skupinách.\tSpoločne vleteli do hniezda.",
+            "number": "2.000",
+            "text": "Z hniezda vyleteli v skupinách. Spoločne vleteli do hniezda.",
+            "response": "3.5",
+            "numerical_response": "3.5",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "1.000\tŽena hrá na husliach.\tMladá slečna rada počúva gitaru.",
+            "number": "1.000",
+            "text": "Žena hrá na husliach. Mladá slečna rada počúva gitaru.",
+            "response": "3.5",
+            "numerical_response": "3.5",
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "0.000\tJohn išiel na koni za úsvitu spolu s celou skupinou priateľov.\tVýchod slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "number": "0.000",
+            "text": "John išiel na koni za úsvitu spolu s celou skupinou priateľov. Východ slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "response": "2.5",
+            "numerical_response": "2.5",
+            "additional_question_needed": false
+        }
+    ]
+}
