@@ -1,0 +1,21 @@
+
+
+
+
+\chapter*{Úvod} % chapter* je necislovana kapitola
+\addcontentsline{toc}{chapter}{Úvod} % rucne pridanie do obsahu
+\markboth{Úvod}{Úvod} % vyriesenie hlaviciek
+
+Sémantická podobnosť textov sa zaoberá porovnávaním dvoch textov. Toto porovnanie sa vyjadruje pridelením číselnej hodnoty v určitom intervale. Najčastejšie intervaly pre toto porovnanie sú 0-1 alebo 0-5. Čím je pridelená hodnota nižšia, ukazuje na menšiu podobnosť. Naopak vyššia hodnota hovorí o väčšej podobnosti. Texty sú sémanticky podobné, ak majú podobný význam alebo vyjadrujú podobné myšlienky, no môžu obsahovať rôzne slová a frázy. Sémantická podobnosť textov je dôležitou súčasťou výskumu textov, ako sú naprílad preklady, generovanie textov, kontrola plagiátorstva\cite{semnticka_podobnost_uvod}.
+
+\vspace{1em}
+
+\noindent
+Na zistenie podobnosti sa dajú použiť rôzne prístupy, no pre slovenský jazyk ich nie je toľko ako pre iné, viac svetovo rozšírené jazyky. Preto sme obmedzení na prístupy ako sú napríklad text-embedding-ada-002, SlovakBert a paraphrase-multilingual-mpnet-base-v2. V tejto práci sa zameriame na prácu s týmito modelmi, pretože sú pripravené na okamžité používanie. My budeme evaluovať ich efektivitu nad vybranými dátovými sadami \ref{kap:dataset}.
+\vspace{1em}
+
+\noindent
+Výber týchto modelov nám tiež poskytuje príležitosť preskúmať, ako rôzne prístupy k modelovaniu jazyka môžu ovplyvniť výsledky v sémantickej podobnosti. Zatiaľ čo modely ako SlovakBert sú špecificky trénované pre slovenský jazyk, iné, ako je paraphrase-multilingual-mpnet-base-v2, sú navrhnuté pre viacjazyčné použitie. Toto porovnanie nám umožňuje nielen zistiť, ktorý model je najpresnejší, ale aj pochopiť ich silné a slabé stránky pri práci v slovenskom jazyku.
+
+
+

@@ -1,0 +1,14 @@
+\chapter*{Záver}  % chapter* je necislovana kapitola
+\addcontentsline{toc}{chapter}{Záver} % rucne pridanie do obsahu
+\markboth{Záver}{Záver} % vyriesenie hlaviciek
+
+V práci sme predstavili a analyzovali rôzne prístupy k určovaniu sémantickej podobnosti textov v slovenskom jazyku. Naša práca poskytla porovnanie troch rôznych modelov: Text-embedding-ada-002, SlovakBert a Paraphrase-multilingual-mpnet-base-v2 na troch vybraných dátových sadách. Text-embedding-ada-002 preukázal konzistentnú výkonnosť na všetkých testovaných datasetoch, zatiaľ čo SlovakBert, hoci bol špeciálne navrhnutý pre slovenský jazyk, nedosiahol očakávané výsledky bez ďalšieho špecifického trénovania. Paraphrase-multilingual-mpnet-base-v2 vykázal najlepšie výsledky na datasete SemEval-2015-example\_sk, čo naznačuje jeho potenciál v úlohách zameraných na krátke texty, ale obmedzenia spojené s prístupom k plateným službám nám zabránili v plnom testovaní jeho schopností.
+\vspace{1em}
+
+\noindent
+Budúci výskum by sa mal zamerať na ďalšie trénovanie modelu SlovakBert, aby bol lepšie prispôsobený špecifickým potrebám slovenského jazyka. Taktiež by bolo užitočné získať prístup k plateným nástrojom, ako je napríklad plná verzia platformy, ktorá poskytuje model Paraphrase-multilingual-mpnet-base-v2, aby bolo možné správne vyhodnotiť jeho schopnosti. 
+\vspace{1em}
+
+\noindent
+Výsledky tejto práce nám dávajú základ pre zlepšenie nástrojov na meranie textovej podobnosti a prispievajú k lepšiemu pochopeniu funkcionality modelov strojového učenia v oblasti spracovania prirodzeného jazyka pre slovenský jazyk.
+
