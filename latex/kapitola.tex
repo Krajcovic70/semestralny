@@ -1,135 +1,141 @@
-\chapter{Sémantická podobnosť textov}
-Táto kapitola sa zaoberá konceptom sémantickej podobnosti textov. Preskúmava, ako moderné algoritmy a modely umožňujú analyzovať a porovnávať texty na základe ich významu, nie len na základe použitých slov. Sústreďuje sa na rôzne metódy určovania sémantickej podobnosti, vrátane vektorových reprezentácií textu a transformačných modelov.
+\chapter{Sémantická podobnosť textov} \nopagebreak
 \label{kap:clenenie} 
-\section{Súčasný stav}
+Táto kapitola sa zaoberá konceptom sémantickej podobnosti textov. Preskúmava, ako moderné algoritmy a modely umožňujú analyzovať a porovnávať texty na základe ich významu, nie len na základe použitých slov. Sústreďuje sa na rôzne metódy určovania sémantickej podobnosti, vrátane vektorových reprezentácií textu a transformačných modelov.
+\vspace{-2em}
+\section{Využitie}
 Sémantická podobnosť textov je úloha, ktorá hodnotí mieru, do akej dva textové segmenty vyjadrujú podobný alebo rovnaký význam. Oblasti využitia sú systémy automatického odpovedania, klasifikácia textov, kontrola plagiátorstva \cite{stss}. 
-\vspace{1em}
 
-\noindent
-V zahraničí sa sémantickej podobnosti textov venoval rozsiahly výskum, pričom veľkou zásluhou pre tento výskum mal projekt SemEval\footnote{\url{https://semeval.github.io/}} \cite{2015-semeval}. V tomto projekte sa vyskytli úlohy zamerané na sémantickú podobnosť textov od roku 2012 až po rok 2017. Pre zahraničné jazyky existuje mnoho modelov zaoberajúcich sa sémantickou podobnosťou textov. Jedny zo známejších sú BERT modely, pre ktoré existujú verzie vo viacerých jazykoch \cite{dutchbert, alberto, camembert}. Existuje niekoľko zahraničných dátových sád. Dve z nich, s ktorými aj budeme pracovať, sú STS Benchmark a SICK \cite{stsbenchmark1, sick}.
+\section{Metódy sémantickej podobnosti textov}
+Metódy na meranie sémantickej podobnosti možno rozdeliť do troch hlavných kategórií: štatistické (korpusové) metódy (tab.: \ref{kap:statistical_similarity}), metódy založené na podobnosti reťazcov (tab.: \ref{kap:string_similarity}) a metódy založené na znalostiach (tab.: \ref{kap:knowledge_based_methods}).
+
+\small
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{|l|}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{Štatistická/Korpusová podobnosť}} \\
+        \hline
+        • \textbf{Latentná sémantická analýza} (LSA) \\
+        • \textbf{Generalizovaná latentná sémantická analýza} (GLSA) \\
+        • \textbf{Explicitná sémantická analýza} (ESA) \\
+        • \textbf{Bodová vzájomná informácia – informačné vyhľadávanie} (PMI-IR) \\
+        • \textbf{Normalizovaná Google vzdialenosť} (NGD) \\
+        • \textbf{Hyperpriestorový analóg jazyka} (HAL) \\
+        \hline
+    \end{tabular}
+\caption{Štatistické/korpusové metódy podobnosti}
+\label{kap:statistical_similarity}
+\end{table}
+
+\small
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{|l|}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{Podobnosť reťazcov}} \\
+        \hline
+        • \textbf{Metriky podobnosti založené na znakoch} \\
+        \quad – Longest Common Substring (LCS) \\
+        \quad – Damerau-Levenshtein \\
+        \quad – Jaro \\
+        \quad – Jaro-Winkler \\
+        \quad – Needleman-Wunsch \\
+        \quad – Smith-Waterman \\
+        \quad – n-gram \\
+        \quad – syntactic n-gram \\
+        • \textbf{Metriky podobnosti založené na termínoch} \\
+        \quad – Block Distance \\
+        \quad – Kosínusová podobnosť (Cosine Similarity) \\
+        \quad – Soft Kosínusová podobnosť (Soft Cosine Similarity) \\
+        \quad – Sorensen-Dice Index \\
+        \quad – Euklidovská vzdialenosť (Euclidean Distance) \\
+        \quad – Jaccardov index \\
+        \quad – Jednoduchý zhodný koeficient (Simple Matching Coefficient, SMC) \\
+        \quad – Prekrývací koeficient (Overlap Coefficient) \\
+        \hline
+    \end{tabular}
+\caption{Metrika podobnosti reťazcov}
+\label{kap:string_similarity}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{|l|}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{Metódy založené na znalostiach}} \\
+        \hline
+        • \textbf{Metóda založená na hranách} \\
+        \quad – Prístup dĺžky cesty \\
+        \quad\quad ◦ Najkratšia dĺžka cesty \\
+        \quad\quad ◦ Vážená najkratšia dĺžka cesty \\
+        \quad – Relatívne škálovanie hĺbky \\
+        \quad – Konceptuálna podobnosť \\
+        \quad – Normalizovaná dĺžka cesty \\
+        \quad – Leacock \& Chodorow \\
+        \quad – Wu a Palmer \\
+        • \textbf{Metóda založená na informačnom obsahu} \\
+        • \textbf{Metóda založená na vlastnostiach} \\
+        • \textbf{Prekrývanie} \\
+        \quad – Lesk \\
+        \hline
+    \end{tabular}
+\caption{Metódy podobnosti založené na znalostiach}
+\label{kap:knowledge_based_methods}
+\end{table}
+
+V zahraničí sa sémantickej podobnosti textov venoval rozsiahly výskum, pričom veľkou zásluhou pre tento výskum mal projekt SemEval. Je to séria medzinárodných seminárov zameraných na spracovanie prirodzeného jazyka. Cieľom ktorých je zlepšenie štádia sémantickej analýzy a vytvorenie kvalitných dátových sád. Každý ročník seminárov obsahuje zbierku úloh, na ktorých sa porovnávajú systémy zameraných na sémantickú analýzu.\footnote{\url{https://semeval.github.io/}} \cite{2015-semeval}
+
+V tomto projekte sa vyskytli úlohy zamerané na sémantickú podobnosť textov od roku 2012 až po rok 2017. Pre zahraničné jazyky existuje mnoho modelov zaoberajúcich sa sémantickou podobnosťou textov. Jedny zo známejších sú BERT modely, pre ktoré existujú verzie vo viacerých jazykoch \cite{dutchbert, alberto, camembert}. Existuje niekoľko zahraničných dátových sád. Dve z nich, s ktorými aj budeme pracovať, sú STS Benchmark a SICK \cite{stsbenchmark1, sick}.
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|p{6cm}|p{6cm}|}
+\hline
+\textbf{Skóre} & \textbf{English (E)} & \textbf{Slovak (SK)} \\
+\hline
+5.0 & \multicolumn{2}{|p{12cm}|}{\textit{Dve vety sú ekvivalentné, pretože znamenajú to isté.}} \\
+\hline
+& The bird is bathing in the sink. & Vták sa kúpe v umývadle. \\
+& Birdie is washing itself in the water basin. & Vtáčik sa umýva v umývadle. \\
+\hline
+4.0 & \multicolumn{2}{|p{12cm}|}{\textit{Dve vety sú skoro ekvivalentné, no líšia sa v nepodstatných detailoch}} \\
+\hline
+& In May 2010, the troops attempted to invade Kabul. & V máji 2010 sa jednotky pokúsili o inváziu na Kábul. \\
+& The US army invaded Kabul on May 7th last year, 2010. & Americká armáda vtrhla do Kábulu 7. mája minulého roku, 2010. \\
+\hline
+3.0 & \multicolumn{2}{|p{12cm}|}{\textit{Dve vety sú približne ekvivalentné, no niektoré dôležité informácie sa líšia/chýbajú.}}\\
+\hline
+& John said he is considered a witness but not a suspect. & John povedal, že je považovaný za svedka, ale nie za podozrivého. \\
+& "He is not a suspect anymore." John said. & \glqq Už nie je podozrivý,\grqq{} povedal John. \\
+\hline
+2.0 & \multicolumn{2}{|p{12cm}|}{\textit{Dve vety nie sú ekvivalentné, ale zdielajú spoločné detaily.}} \\
+\hline
+& They flew out of the nest in groups. & Z hniezda vyleteli v skupinách. \\
+& They flew into the nest together. & Spoločne vleteli do hniezda. \\
+\hline
+1.0 & \multicolumn{2}{|p{12cm}|}{\textit{Dve vety nie sú ekvivalentné, ale týkajú sa tej istej témy.}} \\
+\hline
+& The woman is playing the violin. & Žena hrá na husliach. \\
+& The young lady enjoys listening to the guitar. & Mladá slečna rada počúva gitaru. \\
+\hline
+0.0 & \multicolumn{2}{|p{12cm}|}{\textit{Dve vety sú úplne odlišné.}}\\
+\hline
+& John went horseback riding at dawn with a whole group of friends. & John išiel na koni za úsvitu spolu s celou skupinou priateľov. \\
+& Sunrise at dawn is a magnificent view to take in if you wake up early enough for it. & Východ slnka za úsvitu je nádherný výhľad, ak sa na to zobudíte dostatočne skoro. \\
+\hline
+\end{tabular}
+\caption{Porovnanie anglických a slovenských viet na základe ich podobnosti}
+\label{tab:sentence_comparison}
+\end{table}
 \vspace{1em}
 
 \noindent
 Na slovensku sa výskum sémantickej podobnosti textov postupne vyvíja. Jeden z najvýznamnejších pokrokov pre tento výskum bol vývoj SlovakBERT \cite{slovakbert_uvod2}, ktorý je slovenskou verziou globálne populárneho modelu BERT. Dátové sady v slovenskom jazyku doposiaľ neexistujú, no je možné využívať strojovo preložené dátové sady z iných jazykov.
+\vspace{1em}
+
 \section{Cieľ práce}
 Cieľom tejto práce je skúmať a analyzovať metódy určovania sémantickej podobnosti textov. Zároveň sa zameriava na porovnanie existujúcich prístupov a zisťovanie naj-presnejšej metódy pre slovenský jazyk. Ďalej sa práca venuje hodnoteniu použiteľnosti týchto metód a analýze ich výsledkov.
-\section{Praktický výskum}
-\subsection{Dátové sady}
-\label{kap:dataset}
-Dátové sady sú zbierky informácií, ktoré obsahujú údaje o konkrétnych objektoch alebo javoch v reálnom svete. Tieto dátové sady slúžia na uchovávanie a organizovanie informácií tak, aby boli ľahko prístupné a použiteľné pre analýzu alebo ďalšie spracovanie \cite{dataset}. 
-\vspace{1em}
-
-\noindent
-Sady, ktoré sme použili, boli stsbenchmark\_sk, sick\_sk a SemEval-2015-example\_sk. Použili sme ich na vyhodnotenie presnosti modelu pri predikcii podobnosti medzi vetami. Porovnávali sme výstupy modelu s anotáciami v týchto dátových sadách. Anotácie sú miery podobnosti ohodnotené ľudskými anotátormi. Tieto anotácie sú destainné čísla v intervaloch od 0 do 5. Neexistujú však dátové sady pre slovenský jazyk, preto sa pre slovenské modely využívajú preložené sady zo zahraničia. 
-\label{kap:bench}
-\vspace{1em}
-
-\noindent
-STS Benchmark je dátová sada obsahujúca 8628 dvojíc viet s anotáciami \cite{stsbenchmark1}. STS Benchmark je starostlivo vybraná sada anglických dátových sád, ktoré boli použité v súťažiach SemEval medzi rokmi 2012 a 2017 \cite{stsbenchmark2}. SemEval je séria medzinárodných workshopov zameraných na výskum spracovania prirodzeného jazyka, ktorej cieľom je posunúť súčasný stav vývoja v oblasti sémantickej analýzy\footnote{\url{https://semeval.github.io/}}. My sme preto využili strojovo preloženú verziu tejto dátovej sady do slovenského jazyka.
-\vspace{1em}
-
-\noindent
-Ďaľšou dátovou sadou bol SICK. Je to dátová sada, ktorá bola vyvinutá s cieľom vyplniť medzeru v existujúcich dátových sadách, týkajúcich sa spracovania prirodzeného jazyka. Obsahuje veľké množstvo dvojíc viet bohatých na lexikálne, syntaktické a sémantické javy, ktoré sa očakávajú od modelov založených na distribučnej sémantike. SICK je špeciálne navrhnutá tak, aby nevyžadovala zaoberanie sa inými aspektmi existujúcich dátových sád obsahujúcich vety, ktoré nie sú v rámci rozsahu kompozičnej distribučnej sémantiky \cite{sick}.Táto sada obsahuje 9840 dvojíc viet s anotáciami. Rovnako ako pri STS Benchmark, aj túto sadu sme strojovo preložili do slovenského jazyka.
-\vspace{1em}
-
-\noindent
-Poslednou použitou dátovou sadou je SemEval-2015-example. Je to sada, ktorú sme vytvorili pre túto prácu prekladom dátovej sady, použitej ako príklad v SemEval-2015 \cite{2015-semeval} tabuľka č. 1.
-
-\subsection{Kosínusová podobnosť}
-\label{kap:kosinus}
-Na výpočet podobnosti medzi textami je potrebné použiť určitý algoritmus, pričom existuje viacero možností. Najznámejšie sú Jaccardová podobnosť, Kosínusová podobnosť, Euklidovská podobnosť a Manhattanská podobnosť \cite{dalsie}.
-\vspace{1em}
-
-\noindent
-V našej práci sme si vybrali kosínusovú podobnosť, pretože všetky tri použité metódy pracujú s vektorovými reprezentáciami textov. Kosínusová podobnosť dokáže určiť podobnosť medzi dvoma textami, pomocou výpočtu kosínusovej hodnoty medzi ich vektorovými reprezentáciami. Čím je výsledná hodnota vyššia, tým je podobnosť dvoch textov väčšia. Kosínusová podobnosť sa počíta vzorcom \cite{cosinus} č. \ref{eq:cosine_similarity}.
-
-\begin{equation}
-Sim(\vec{q}, \vec{d}) = \frac{\vec{q} \cdot \vec{d}}{|\vec{q}| |\vec{d}|} = \frac{\sum_{k=1}^{t} w_{qk} \times w_{dk}}{\sqrt{\sum_{k=1}^{t} (w_{qk})^2} \cdot \sqrt{\sum_{k=1}^{t} (w_{dk})^2}}
-\label{eq:cosine_similarity}
-\end{equation}
-\vspace{1em}
-
-\noindent
-Tento vzorec predstavuje výpočet kosínusovej podobnosti medzi dvoma vektormi \( \vec{q} \) a \( \vec{d} \), ktoré reprezentujú dva dokumenty. Tieto vektory vieme zapísať ako \begin{equation}\vec{q} = (w_{q0}, w_{q1}, ..., w_{qk})\end{equation} pre  \( \vec{q} \) a pre  \( \vec{d} \)\begin{equation}\vec{d} = (w_{d0}, w_{d1}, ..., w_{dk}),\end{equation} kde vektor reprezentuje ľubovolný text v rôznych veľkostiach  (slovo, veta, dokument). Vzorec počíta kosínusovú podobnosť ako podiel súčinu vektorov \( \vec{q} \) a \( \vec{d} \) so súčinom veľkostí vektorov \( \vec{q} \) a \( \vec{d} \). Čitateľ bude preto obsahovať skalárny súčin dvoch vektorov. Ten zapíšeme ako \begin{equation}\sum_{k=1}^{t} w_{qk} \times w_{dk}.\end{equation} V menovateli bude súčin veľkostí týchto dvoch vektorov, ktoré získame ako odmocninu zo súčtu štvorcov všetkých prvkov danného vektora. 
-
-\begin{equation}
-\vec{q} = \sqrt{\sum_{k=1}^{t} (w_{qk})^2}
-\end{equation}
-
-\begin{equation}
-\vec{d} = \sqrt{\sum_{k=1}^{t} (w_{dk})^2}
-\end{equation}
-\vspace{1em}
-
-\noindent
-Výsledná hodnota  je v intervale od 0 do 1, lebo pre \( {w_{qi}} \) a \( {w_{di}} \) platí, že \((0 \leq i \leq k)\) \cite{cosinus}. Hodnota 1 predstavuje, že vektory majú rovnaký smer, čo znamená, že sú si vektory a aj texty, ktoré predstavujú, rovnaké. Naopak, hodnota 0 znamená, že vektory sú na seba navzájom kolmé. To hovorí o tom, že danné vektory nie sú podobné ani odlišné na základe meraných vlastností. 
-
-\subsection{Používanie metód}
-\subsubsection{Text-embedding-ada-002}
-Model text-embedding-ada-002 je model druhej generácie od spoločnosti OpenAI, vytvorený pre úlohy súvisiace s sémantikou podobnosťou textov \cite{ada}. Pri práci s text-embedding-ada-002 je potrebné komunikovať s API serverom. Na túto komunikáciu je potrebné získať API kľúč pre OpenAI, ktorý je nevyhnutný na prácu s OpenAI službami. Jedna z týchto služieb je aj získavanie vektorových reprezentácií viet. Pomocou API kľúču môžeme posielať požiadavku, v ktorej povieme, ktorých viet vektorovú reprezentáciu potrebujeme. Tento server ju spracuje a využije svoje predtrénované modely a pošle nám späť vektorové reprezentácie. Výslednú podobnosť viet sme nakoniec získali pomocou výpočtu Kosínusovej podobnosti. \ref{kap:kosinus}
-
-\subsubsection{SlovakBert}
-\label{kap:bertik}
-SlovakBert je prvý jazykový model vyvinutý len pre slovenský jazyk. Jednou z jeho funkcií je aj sémantická textová podobnosť \cite{slovakbert_uvod}. Pre dosiahnutie lepších výsledkov je tento model potrebné dodatočne trénovať.
-Bol  predstavený v roku 2021 \cite{slovakbert_uvod2}, čo je pomerne neskoro, v porovnaní s ostatnými BERT modelmi. BERT model pre Holandsko (BERTje) bol predstavený v roku 2019 \cite{dutchbert}, rovnako ako pre Taliansko (AlBERTo) \cite{alberto} a Francúzsko (CamemBERT) \cite{camembert}. Rovnako ako pri text-embedding-ada-002, pomocou metódy SlovakBert sme museli získať vektorové reprezentácie viet. Na to sme museli vety tokenizovať do formátu, ktorému by model rozumel. To dokážeme spraviť pomocou tokenizátoru. Tokenizátor je nástroj, ktorý rozdeľuje text na menšie časti. Tieto časti sa nazývajú tokeny. Toto je potrebné, pretože SlovakBert vyžaduje, aby jednotlivé tokeny boli prevedené do číselného formátu, aby ich vedel spracovať. V takejto forme ich už vedel predtrénovaný model spracovať a získať vektorové reprezentácie dvoch viet, ktorých podobnosť sme získali pomocou Kosínusovej podobnosti \ref{kap:kosinus}. Túto podobnosť sme previedli na interval 0-5.
-
-\subsubsection{Paraphrase-multilingual-mpnet-base-v2}
-Model "paraphrase-multilingual-mpnet-base-v2" je verzia modelu MPNet od spoločnosti Microsoft \cite{paraphrase}. MPNet  využíva dodatočné informácie o pozícii slov, aby mal lepší prehľad o celej vete. Toto zlepšenie pomáha modelu lepšie pochopiť text, pretože znižuje rozdiely medzi pozíciami slov v trénovacích a reálnych situáciách. Takto zohľadňuje celú vetu a znižuje tým nezrovnalosti v pochopení polohy slov vo vete \cite{mpnet}. Tento model je prístupný na platforme NLP cloud\footnote{\url{https://nlpcloud.com/home/playground/semantic-similarity}}, kde je možné ho využívať zadarmo s nie plnou verziou alebo si zaplatiť plnú verziu.  S paraphrase-multilingual-mpnet-base-v2 sme pracovali cez NLP cloud. Pracovali s verziou zadarmo, ktorá mala obmedzenie na počet požiadaviek na NLP cloud API. Preto sme vo verzii zadarmo priamo vkladali dva texty do modelu na ich stránke. Z toho dôvodu sme ručne vytvorili dátovú sadu mojtext.txt, ktorá obsahuje len 5 dvojíc viet na porovnanie. 
-
-\subsection{Ohodnotenie výsledkov}
-Vyhodnotili sme prístupy Text-embedding-ada-002, SlovakBert a Paraphrase-multilingual-mpnet-base-v2 na dátových sadách \ref{kap:dataset}, s využitím Pearsonovho korelačného koeficientu. 
-\vspace{1em}
-
-\noindent
-Pearsonov korelačný koeficient ukazuje mieru monotónnej asociácie medzi dvoma premennými. Tento monotónny vzťah medzi premennými rastie pri jednej premennej, ak rastie aj pri druhej, alebo naopak klesá pri jednej premennej, ak klesá aj pri druhej \cite{correlation}.  
-
-\label{kap:tabulka}
-\begin{table}[h]
-\caption[Sémantická podobnosť dátových sád]{Nasledujúca tabuľka predstavuje výsledky jednotlivých modelov na rôzne dátové sady obsahujúce texty.}
-% id tabulky
-\label{tab:t}
-% tu zacina samotna tabulka
-\begin{center}
-\begin{tabular}{lrrr}
-\hline 
-Meno modelu v slovenčine & SICK & STS Benchmark & SemEval-2015\\
-\hline
-Text-embedding-ada-002 & \textbf{0.6815} & \textbf{0.7224} & 0.7998 \\
-SlovakBert  & 0.5803 & 0.6055 & 0.7883\\
-Paraphrase-multilingual-mpnet-base-v2 & N/A & N/A  & \textbf{0.9475}\\
-\hline
-\end{tabular}
-\end{center}
-\end{table}
-
-\noindent
-Tabuľka \ref{tab:t} poskytuje prehľad výsledkov Pearsonovho korelačného koeficientu pre Text-embedding-ada-002, SlovakBert a Paraphrase-multilingual-mpnet-base-v2 na dátové sady. Tieto údaje nám umožňujú porovnať efektívnosť jednotlivých modelov. 
-\vspace{1em}
-
-\noindent
-Model Text-embedding-ada-002 dosiahol koeficient 0.6815 na dátovej sade SICK\_sk, 0.7224 na STS Benchmark\_sk a 0.7998 na SemEval-2015-example\_sk. Tento model ukázal konzistentnosť a efektívnosť s postupným zlepšením na náročnejších jazykových úlohách, ako sú tie nachádzajúce sa v datátových sadách SICK\_sk a STS Benchmark\_sk.
-\vspace{1em}
-
-\noindent
-SlovakBert, špecificky navrhnutý pre slovenský jazyk, má koeficient 0.5803 na SICK\_sk a 0.6055 na STS Benchmark\_sk, pričom na dátovej sade SemEval-2015-example\_sk dosiahol 0.7883. Tieto výsledky poukazujú na to, že SlovakBert má potenciál pre vysokú presnosť, ale môže byť menej konzistentný.
-\vspace{1em}
-
-\noindent
-Model Paraphrase-multilingual-mpnet-base-v2, nebol testovaný na prvých dvoch dátových sadách, ale dosiahol najlepší výsledok 0.9475 na SemEval-2015-example\_sk. Tento výsledok naznačuje, že tento model je mimoriadne účinný, no nebolo nám to možné ukázať na väčších dátových sadách.
-
-\section{Výsledky práce}
-
-Na dátovej sade SICK\_sk dosiahol najlepšie výsledky model Text-embedding-ada-002 s Pearsonovým koeficientom 0.6815, čo ho činí najúspešnejším modelom pre túto dátovú sadu. Tento model sa ukázal byť najefektívnejší aj na dátovej sade STS Benchmark\_sk, kde dosiahol koeficient 0.7224, čo ukazuje jeho konzistentnú výkonnosť aj pri náročnejších jazykových úlohách. Na dátovej sade SemEval-2015-example\_sk však najlepší výsledok dosiahol model Paraphrase-multilingual-mpnet-base-v2 s hodnotou 0.9475, čo poukazuje na jeho schopnosť porovnávania krátkych textov.
-\vspace{1em}
-
-\noindent
-Model SlovakBert, ktorý bol špeciálne vyvinutý pre slovenský jazyk, nepredviedol na žiadnej dátovej sade najlepšie výsledky, avšak dôvodom môže byť, že sme ho dodatočne netrénovali. Hoci dosiahol na dátovej sade SemEval-2015-example\_sk koeficient 0.7883, jeho výsledky by mohli byť výrazne zlepšené trénovaním a prispôsobením na konkrétne typy textov alebo špecifické jazykové úlohy. Tento proces by mohol výrazne zvýšiť jeho účinnosť pri riešení náročnejších jazykových úloh.
-\vspace{1em}
-
-\noindent
-To, že sme nemohli testovať model Paraphrase-multilingual-mpnet-base-v2 na iných datasetoch kvôli obmedzeniam na platenú verziu platformy NLP cloud, bráni v úplnom vyhodnotení. Napriek tomu, jeho vynikajúci výkon na jednom datasete naznačuje, že z modelov nami testovaných by mohol byť najlepší model na určovanie sémantickej podobnosti textov.
-\vspace{1em}
-
-\noindent
-Pri výbere najvhodnejšieho modelu je dôležité zvážiť nielen mieru úspešnosti, ale aj ďalšie faktory, ako sú rýchlosť a náklady na výpočet. Napriek pomalšiemu vykonávaniu môže byť model Text-embedding-ada-002 stále vhodnou voľbou pre úlohy, kde je dôležitejšia vyššia presnosť pred rýchlosťou. Avšak, ak je potrebná rýchlejšia odozva, Paraphrase-multilingual-mpnet-base-v2 s platenou verziou môže byť lepšou alternatívou. SlovakBert ponúka dobrý kompromis medzi presnosťou a rýchlosťou, najmä po ďalšom špecifickom trénovaní pre slovenský jazyk.
-
