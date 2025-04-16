@@ -2,9 +2,9 @@ import pandas as pd
 from scipy.stats import pearsonr
 
 # Subory
-original_scores_path = 'sick_sk_slovak_gpt.txt'
-computed_scores_path = 'sick_sk_slovak_gpt_numbers.txt'
-final_file = 'final.txt'  # Súbor pre uloženie finálnych výsledkov
+original_scores_path = '../mojtext.txt'
+computed_scores_path = '../mojtext_numbers.txt'
+final_file = 'MOJ_ai_result.txt'  # Súbor pre uloženie finálnych výsledkov
 redo_file = 'redo.txt'  # Súbor pre znovuspracovanie neplatných riadkov
 
 def compute_pearson_correlation(original_scores_path, computed_scores_path, question):

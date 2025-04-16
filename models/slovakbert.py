@@ -14,11 +14,15 @@ def get_sentence_embedding(text, tokenizer, model):
     return sentence_embedding.numpy()
 
 # Load tokenizer and model
-tokenizer = RobertaTokenizer.from_pretrained('gerulata/slovakbert')
-model = RobertaModel.from_pretrained('gerulata/slovakbert')
+#tokenizer = RobertaTokenizer.from_pretrained('gerulata/slovakbert')
+#model = RobertaModel.from_pretrained('gerulata/slovakbert')
+
+
+tokenizer = RobertaTokenizer.from_pretrained('../slovakbert-sts-model')
+model = RobertaModel.from_pretrained('../slovakbert-sts-model')
 
 # Load dataset
-dataset_path = 'mojtext.txt'  # Adjust this path to your dataset file
+dataset_path = '../mojtext.txt'  # Adjust this path to your dataset file
 data = pd.read_csv(dataset_path, sep='\t', header=None, names=['score', 'sentence1', 'sentence2'])
 
 # Initialize a list to hold the results
@@ -34,7 +38,7 @@ for index, row in data.iterrows():
     print(f"Processed pair {index + 1}/{len(data)}")
 
 # Save results to a file
-with open('slovakbert_mojtext_scores.txt', 'w') as file:
+with open('../tretipokustrenovania.txt', 'w') as file:
     file.writelines(results)
 
-print("Processing complete, results saved to slovakbert_stsbenchmark_sk_scores.txt.")
+print("Processing complete, results saved to trained_sts_benchmark.txt.")

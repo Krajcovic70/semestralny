@@ -31,7 +31,7 @@ def get_chatgpt_response(messages):
         return f"Error: {str(e)}", messages
 
 def main():
-    input_file = 'sick_sk_slovak_gpt.txt'
+    input_file = '../mojtext.txt'
     numbers_file = f"{os.path.splitext(input_file)[0]}_numbers.txt"
     results_dir = 'chatgpt_questions_results'
     os.makedirs(results_dir, exist_ok=True)

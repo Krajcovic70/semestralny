@@ -8332,7 +8332,7 @@
 3.40	Aktualizácia FTSE Bursa Malajzia: 11.30 hod.	Aktualizácia FTSE Bursa Malajzia: 15:00
 2.80	Vyhľadávanie havárie Glasgow	Glasgow Hrupina vrtuľníka: Žena PC je obeťou
 3.20	Citácie v správach	Citácie dňa
-1.80	Philip opustí nemocnicu po 11 dňoch	Mandela odchádza z nemocnice po 10 dňoch
+1.80	Philip opustí nemocnicu po 11 dňoch Mandela odchádza z nemocnice po 10 dňoch
 4.60	Fragment kostí „môže byť kráľom Alfred“	Zvyšky vo Winchesteri by mohol byť kráľom Alfredom veľkým
 3.80	Izrael oslobodzuje druhú skupinu palestínskych väzňov	Izrael vydáva 26 palestínskych väzňov
 3.80	Dvaja skydiveri mŕtvi po zrážke počas nás skok	Dvaja skydiveri mŕtvi po zrážke počas skoku v Arizone
