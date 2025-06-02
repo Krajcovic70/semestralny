@@ -3,18 +3,15 @@ import re
 import os
 import json
 
-# Nastavte svoj OpenAI API kľúč
 openai.api_key = ''
 
 def extract_similarity_score(response):
-    """ Extrahuje čísla z odpovede a vráti najväčšie číslo. """
     matches = re.findall(r"\b[0-4](?:\.\d+)?|5(?:\.0)?\b", response)
     if matches:
-        return max(map(float, matches))  # Vyberie najväčšie číslo
+        return max(map(float, matches))
     return None
 
 def get_chatgpt_response(messages):
-    """ Získa odpoveď od ChatGPT. """
     try:
         response = openai.ChatCompletion.create(
             model="gpt-4",
@@ -64,17 +61,14 @@ def main():
                 if not line:
                     continue
 
-                # **Rozdelenie riadku na tri časti podľa tabulátora (`\t`)**
                 parts = line.split('\t')
 
                 if len(parts) < 3:
                     print(f"Preskakujem neplatný riadok [{index}]: {line}")
                     continue
 
-                # Prvé číslo (ignorujeme pri porovnávaní, ale uložíme)
                 original_score = parts[0].strip()
 
-                # Dve vety na porovnanie
                 sentence1 = parts[1].strip()
                 sentence2 = parts[2].strip()
 
@@ -84,7 +78,6 @@ def main():
 
                 print(f"Porovnávam: '{sentence1}' VS '{sentence2}'")
 
-                # Pripravíme správu pre GPT
                 messages = [{"role": "user", "content": f"What is semantics text similarity of those two sentences? They are in slovak language and please respond in number float or int on scale 0-5.\n\n1. {sentence1}\n2. {sentence2}"}]
                 response, messages = get_chatgpt_response(messages)
                 print(f"Response od GPT: {response}")

@@ -3,18 +3,15 @@ import re
 import os
 import json
 
-# Nastavte svoj OpenAI API kľúč
 openai.api_key = ''
 
 def extract_similarity_score(response):
-    """ Extrahuje čísla z odpovede a vráti najväčšie číslo. """
     matches = re.findall(r"\b[0-4](?:\.\d+)?|5(?:\.0)?\b", response)
     if matches:
-        return max(map(float, matches))  # Vyberie najväčšie číslo
+        return max(map(float, matches))
     return None
 
 def get_chatgpt_response(messages):
-    """ Získa odpoveď od ChatGPT. """
     try:
         response = openai.ChatCompletion.create(
             model="gpt-4",
@@ -32,14 +29,13 @@ def get_chatgpt_response(messages):
 
 def main():
     input_file = '../mojtext.txt'
-    numbers_file = f"{os.path.splitext(input_file)[0]}_numbers.txt"
+    numbers_file = f"{os.path.splitext(input_file)[0]}en_numbers.txt"
     results_dir = 'chatgpt_questions_results'
     os.makedirs(results_dir, exist_ok=True)
-    base_results_file = os.path.join(results_dir, f"{os.path.splitext(input_file)[0]}_results.json")
+    base_results_file = os.path.join(results_dir, f"{os.path.splitext(input_file)[0]}english_results.json")
 
     question = input("Otázka: ")
 
-    # Kontrola spracovaných riadkov
     processed_lines = 0
     if os.path.exists(numbers_file):
         with open(numbers_file, 'r', encoding='utf-8') as num_file:
@@ -74,7 +70,6 @@ def main():
                 similarity_score = extract_similarity_score(response)
                 additional_question_needed = False
 
-                # Ak odpoveď obsahuje text aj číslo, pýtame si len číslo
                 if similarity_score is None or not (
                         isinstance(response, str) and response.strip().replace('.', '', 1).isdigit()):
                     additional_question_needed = True
@@ -83,7 +78,6 @@ def main():
                     print(f"Response od GPT (po vyžiadaní čísla): {response}")
                     similarity_score = extract_similarity_score(response)
 
-                # Ak stále nie je číslo, nastavíme -1
                 if similarity_score is None:
                     similarity_score = -1
 
@@ -96,13 +90,11 @@ def main():
                     "additional_question_needed": additional_question_needed
                 })
 
-                # Ukladanie ".json" po každých 10 riadkoch
                 if index % 10 == 0:
                     with open(base_results_file, 'w', encoding='utf-8') as json_file:
                         json.dump(results, json_file, ensure_ascii=False, indent=4)
                     print(f"Medzičasné výsledky boli uložené do '{base_results_file}'.")
 
-        # Uloženie konečných výsledkov
         with open(base_results_file, 'w', encoding='utf-8') as json_file:
             json.dump(results, json_file, ensure_ascii=False, indent=4)
 

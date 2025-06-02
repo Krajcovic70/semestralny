@@ -1,0 +1,41 @@
+{
+    "question": "Aká je sémantická podobnosť týchto dvoch viet? Prosím odpovedz len číslom na škále od 0 do 5.",
+    "responses": [
+        {
+            "original_line": "5.000\tVták sa kúpe v umývadle.\tVtáčik sa umýva v umývadle.",
+            "response": "4.700",
+            "numerical_response": 4.7,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "4.000\tV máji 2010 sa jednotky pokúsili o inváziu na Kábul.\tAmerická armáda vtrhla do Kábulu 7. mája minulého roku, 2010.",
+            "response": "4.5",
+            "numerical_response": 4.5,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "3.000\tJohn povedal, že je považovaný za svedka, ale nie za podozrivého.\t\"Už nie je podozrivý.\" povedal John.",
+            "response": "4.000",
+            "numerical_response": 4.0,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "2.000\tZ hniezda vyleteli v skupinách.\tSpoločne vleteli do hniezda.",
+            "response": "4.000",
+            "numerical_response": 4.0,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "1.000\tŽena hrá na husliach.\tMladá slečna rada počúva gitaru.",
+            "response": "2.500",
+            "numerical_response": 2.5,
+            "additional_question_needed": false
+        },
+        {
+            "original_line": "0.000\tJohn išiel na koni za úsvitu spolu s celou skupinou priateľov.\tVýchod slnka za úsvitu je nádherný výhľad ak sa na to zobudíte dostatočne skoro.",
+            "response": "3.8",
+            "numerical_response": 3.8,
+            "additional_question_needed": false
+        }
+    ]
+}

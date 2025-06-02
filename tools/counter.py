@@ -9,13 +9,12 @@ def count_first_column_occurrences(file_path):
 
     with open(file_path, 'r', encoding='utf-8') as file:
         for line in file:
-            parts = line.strip().split('\t', 1)  # Rozdelíme len na prvú časť
+            parts = line.strip().split('\t', 1)
             if len(parts) < 2:
                 continue
 
-            first_part = parts[0]  # Prvé číslo na začiatku riadku
+            first_part = parts[0]
 
-            # Overíme, či je prvá časť reálne číslo
             if re.match(r'^\d+(\.\d+)?$', first_part):
                 counts[first_part] += 1
 

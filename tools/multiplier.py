@@ -6,15 +6,15 @@ def process_numbers(input_file, output_file):
         results = []
         for line in lines:
             try:
-                number = float(line.strip())  # Attempts to convert the line to a floating point number
-                result = number * 5  # Multiplies the number by 5
+                number = float(line.strip())
+                result = number * 5
                 results.append(result)
             except ValueError:
-                print(f"Skipping invalid number line: {line.strip()}")  # Skips lines that cannot be converted to float
+                print(f"Skipping invalid number line: {line.strip()}")
 
         with open(output_file, 'w') as file:
             for result in results:
-                file.write(f"{result}\n")  # Writes each result to a new line
+                file.write(f"{result}\n")
 
         print(f"Processed {len(results)} numbers. Results saved to {output_file}.")
     except FileNotFoundError:
@@ -22,5 +22,4 @@ def process_numbers(input_file, output_file):
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
-# Example usage
 process_numbers('nlpcloud_similarity_mojtext.txt', 'nlpcloud_similarity_mojtext_correct.txt')

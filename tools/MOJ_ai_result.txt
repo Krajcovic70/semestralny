@@ -1,3 +1,15 @@
 Otázka: What is semantics text similarity of those two sentences? They are in slovak language and please respond in number float or int on scale 0-5.
 Pearson correlation coefficient: 0.8280786712108248
 ==================================================
+Otázka: jj
+Pearson correlation coefficient: 0.6864503380138106
+==================================================
+Otázka: ee
+Pearson correlation coefficient: 0.6920843736208527
+==================================================
+Otázka: pokus
+Pearson correlation coefficient: 0.7259818437668295
+==================================================
+Otázka: pokusen
+Pearson correlation coefficient: 0.9386550172876789
+==================================================

@@ -9,7 +9,6 @@ if openai_api_key is None:
     raise ValueError("OpenAI API key is not set in environment variables.")
 
 
-# Function to get embeddings for a given text
 def get_embedding(text, retries=3, delay=5):
     url = "https://api.openai.com/v1/embeddings"
     headers = {
@@ -36,7 +35,6 @@ def get_embedding(text, retries=3, delay=5):
     raise Exception(f"Failed to get embedding after {retries} attempts")
 
 
-# Function to calculate cosine similarity
 def cosine_similarity(embedding1, embedding2):
     dot_product = np.dot(embedding1, embedding2)
     norm_embedding1 = np.linalg.norm(embedding1)
@@ -44,10 +42,8 @@ def cosine_similarity(embedding1, embedding2):
     return dot_product / (norm_embedding1 * norm_embedding2)
 
 
-# Load dataset
 df = pd.read_csv('mojtext.txt', sep='\t', header=None, names=['original', 'text1', 'text2'])
 
-# Compute embeddings and similarities
 embeddings_text1 = []
 embeddings_text2 = []
 similarities = []
@@ -72,15 +68,12 @@ for index, row in df.iterrows():
 
 print("Embeddings and similarities computed successfully!")
 
-# Add embeddings and similarities to dataframe
 df['embedding_text1'] = embeddings_text1
 df['embedding_text2'] = embeddings_text2
 df['similarity'] = similarities
 
 
-# Save similarities to a separate text file
 df[['similarity']].to_csv('similarities_mojtext.txt', sep='\t', index=False, header=False)
 
-# Print summary output
 print(
     f"Processed {len(df)} rows. Similarities saved to 'similarities_ai_sick_sk.txt' and original data with similarities saved to 'original_with_similarities.txt'.")
